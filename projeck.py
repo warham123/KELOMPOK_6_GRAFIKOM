@@ -12,8 +12,10 @@ x = x1
 
 if x1 == x2:
      print("Garis vertical")
+#ini di kerja
 elif y1 == y2:
     print("garis horizontal")
+#ini juga
 else:
     titikx=[]
     titikya=[]
