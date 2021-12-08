@@ -6,7 +6,6 @@ y1 = int(input("Masukkan Nilai y1 = "))
 x2 = int(input("Masukkan Nilai X2 = "))
 y2 = int(input("Masukkan Nilai y2 = "))
 
-#m = (y2-y1)/(x2-x1)
 N = x2-x1+1
 x = x1
 y = y1
@@ -27,7 +26,6 @@ if x1 == x2:
     plt.show()
 
 elif y1 == y2:
-    y = y1 = y2
     titikx = []
     titikya = []
     print("Garis vertical")
