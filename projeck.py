@@ -11,8 +11,21 @@ N = x2-x1+1
 x = x1
 
 if x1 == x2:
-    print("Garis vertical")
-# ini di kerja
+    titikx = []
+    titikya = []
+    y = round(y)
+    print("Garis Vertical")
+    print("-----------------------------")
+
+    while y <= y2:
+        print("Garis yang dilewati adalah (", x, ",", y, ")")
+        titikx.append(x)
+        titikya.append(y)
+        y = y+1
+
+    plt.plot(titikx, titikya)
+    plt.show()
+
 elif y1 == y2:
     y = y1 = y2
     titikx = []
