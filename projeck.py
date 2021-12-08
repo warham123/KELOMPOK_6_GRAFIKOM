@@ -28,7 +28,7 @@ if x1 == x2:
 elif y1 == y2:
     titikx = []
     titikya = []
-    print("Garis vertical")
+    print("Garis Horizontal")
     print("-----------------------------")
 
     while x <= x2:
