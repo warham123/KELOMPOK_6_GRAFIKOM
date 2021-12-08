@@ -6,7 +6,7 @@ y1 = int(input("Masukkan Nilai y1 = "))
 x2 = int(input("Masukkan Nilai X2 = "))
 y2 = int(input("Masukkan Nilai y2 = "))
 
-m = (y2-y1)/(x2-x1)
+#m = (y2-y1)/(x2-x1)
 N = x2-x1+1
 x = x1
 
@@ -44,6 +44,7 @@ elif y1 == y2:
 
 
 else:
+    m = (y2-y1)/(x2-x1)
     titikx = []
     titikya = []
     print("Nilai kemiringannya adalah m = ", m)
