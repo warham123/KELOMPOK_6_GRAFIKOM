@@ -14,7 +14,6 @@ y = y1
 if x1 == x2:
     titikx = []
     titikya = []
-    y = round(y)
     print("Garis Vertical")
     print("-----------------------------")
 
